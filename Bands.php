@@ -16,7 +16,7 @@ $acdc["annoI"]= 1973;
 $acdc["annoF"]=2017;
 //Beatles
 $beatles["nome"]= "Beatles";
-$beatles["nazione"]= "Australia";
+$beatles["nazione"]= "Inghilterra";
 $beatles["genere"]= "beat";
 $beatles["annoI"]= 1960;
 $beatles["annoF"]=1970;
