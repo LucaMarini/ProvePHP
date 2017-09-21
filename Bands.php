@@ -24,8 +24,8 @@ $beatles["annoF"]=1970;
 $led["nome"]="Led Zeppelin";
 $led["nazione"]="Inghilterra";
 $led["genere"]="blues rock";
-$led["AnnoI"]=1965;
-$led["AnnoF"]=1980;
+$led["annoI"]=1965;
+$led["annoF"]=1980;
 //band più longeva
 $longevita[0]=$pinkFloyd["annoF"]-$pinkFloyd["annoI"];
 $longevita[1]=$acdc["annoF"]-$acdc["annoI"];
