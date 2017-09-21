@@ -54,7 +54,7 @@ else
 {
 	$maxName="Led Zeppelin";
 }
-echo "La band più longeva sono i ".$maxName.", attivi per ".$maxLong." anni.\n";
+echo "La band più longeva sono gli ".$maxName.", attivi per ".$maxLong." anni.\n";
 //band meno longeva
 for($i = 0 ; $i<4; $i++)
 {
