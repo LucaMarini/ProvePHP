@@ -1,5 +1,5 @@
 <?php
-$longevita array =(0,0,0,0);
+$longevita =array(0,0,0,0);
 $maxLong = 0;
 $minLong = 99999;
 //Pink Floyd
@@ -33,9 +33,9 @@ $longevita[2]=$beatles["annoF"]-$beatles["annoI"];
 $longevita[3]=$led["annoF"]-$led["annoI"];
 for($i = 0 ; $i<4; $i++)
 {
-	if($maxLong<$longevita[i])
+	if($maxLong<$longevita[$i])
 	{
-		$maxLong=$longevita[i];
+		$maxLong=$longevita[$i];
 	}
 }
 if($maxLong==$longevita[0])
@@ -58,9 +58,9 @@ echo "La band più longeva sono i ".$maxName.", attivi per ".$maxLong." anni.\n"
 //band meno longeva
 for($i = 0 ; $i<4; $i++)
 {
-	if($minLong>$longevita[i])
+	if($minLong>$longevita[$i])
 	{
-		$minLong=$longevita[i];
+		$minLong=$longevita[$i];
 	}
 }
 if($minLong==$longevita[0])
